@@ -1,0 +1,27 @@
+body{
+    text-align:center;
+    margin-top:100px;
+    background-color:blueviolet;
+}
+input{
+    border:2px solid white;
+    width:20rem;
+    height:30px;
+    padding:10px;
+
+}
+input:invalid{
+    animation:shake 300ms;
+    color:red;
+}
+@keyframes shake {
+    25%{
+        transform:translate(40px);
+    }
+    50%{
+        transform:translate(-40px);
+    }
+    75%{
+        transform:translate(40px);
+    }
+}
